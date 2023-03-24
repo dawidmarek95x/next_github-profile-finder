@@ -36,9 +36,12 @@ const UserProfileCard = ({ name }: UserProfileCardProps) => {
             <Card>
               <Card.Img variant="top" src={userData?.avatar_url} />
               <Card.Body>
-                <Card.Title className="fw-semibold">
+                <Card.Title className="fw-semibold text-center">
                   {userData?.name}
                 </Card.Title>
+                <Card.Text className="text-secondary text-center">
+                  {userData?.login}
+                </Card.Text>
                 <Card.Text>{userData?.bio}</Card.Text>
                 <div className="d-flex justify-content-center">
                   <a

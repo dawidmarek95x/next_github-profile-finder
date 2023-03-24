@@ -1,8 +1,8 @@
 "use client";
 import { Roboto } from "next/font/google";
 import Header from "@/components/Header/Header";
-import "./globals.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./globals.scss";
 
 const roboto = Roboto({
   weight: ["400", "700"],
